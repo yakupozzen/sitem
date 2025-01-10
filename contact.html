@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Yakup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <span class="logo-text">K</span>
+                </div>
+                <span class="brand-text">Kodluyorum</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="./index.html">Ana Sayfa</a></li>
+                <li><a href="./about.html">Hakkımda</a></li>
+                <li><a href="./portfolio.html">Portfolyo</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html" class="active">İletişim</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contact-hero">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">İLETİŞİM</span>
+                <h1 class="section-title">Benimle İletişime Geçin</h1>
+                <p class="section-description">
+                    Projeleriniz için iş birliği yapmak veya herhangi bir soru sormak için aşağıdaki formu kullanabilirsiniz.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>E-posta</h3>
+                        <p>info@yakup.com</p>
+                        <a href="mailto:info@yakup.com" class="info-link">Mail Gönder</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Konum</h3>
+                        <p>İstanbul, Türkiye</p>
+                        <a href="#" class="info-link">Haritada Gör</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Telefon</h3>
+                        <p>+90 (555) 123 45 67</p>
+                        <a href="tel:+905551234567" class="info-link">Hemen Ara</a>
+                    </div>
+
+                    <div class="social-card">
+                        <h3>Sosyal Medya</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Ad Soyad</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-posta</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Konu</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mesajınız</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span>Gönder</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 Yakup. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
